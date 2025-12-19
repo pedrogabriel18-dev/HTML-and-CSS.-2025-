@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kairon Corporation / Kairon Corporation</title>
+  <!-- 
+  Descrição / Description:
+  Página de exemplo de layout corporativo com seções de destaque usando backgrounds lisos.
+  Example corporate layout page with sections using solid backgrounds.
+  -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-left: 5vw;
+      color: white;
+      overflow: hidden;
+    }
+
+    /* Substituindo imagens por backgrounds lisos */
+    #page1 { background-color: #1E1E1E; }
+    #page2 { background-color: #2E2E2E; }
+    #page3 { background-color: #3E3E3E; }
+    #page4 { background-color: #4E4E4E; }
+    #page5 { background-color: black; }
+    #page6 { background-color: black; justify-content: center; text-align: center; padding-left: 0; }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+    }
+
+    .subtitle {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .description {
+      font-size: 1.2rem;
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="page1">
+    <div class="content">
+      <div class="subtitle">KAIRON CORPORATION</div>
+      <div class="description">
+        Tecnologia que antecipa.<br>
+        Inteligência que protege.
+      </div>
+    </div>
+  </section>
+
+  <section id="page2">
+    <div class="content">
+      <div class="subtitle">INFRAESTRUTURA URBANA INTELIGENTE:</div>
+      <div class="description">
+        Cidades mais seguras, conectadas e<br>
+        sustentáveis com nossa malha neural de<br>
+        sensores, IA e análise de dados em tempo real.
+      </div>
+    </div>
+  </section>
+
+  <section id="page3">
+    <div class="content">
+      <div class="subtitle">IA COMPORTAMENTAL:</div>
+      <div class="description">
+        Entendemos padrões humanos em larga<br>
+        escala. Nossos algoritmos antecipam<br>
+        riscos e otimizam decisões públicas e<br>
+        privadas.
+      </div>
+    </div>
+  </section>
+
+  <section id="page4">
+    <div class="content">
+      <div class="subtitle">SEGURANÇA E CONFIABILIDADE:</div>
+      <div class="description">
+        Criptografia Avançada<br>
+        Monitoramento contínuo<br>
+        Certificações Internacionais<br>
+        Aprovada por mais de 30 governos globais
+      </div>
+    </div>
+  </section>
+
+  <section id="page5">
+    <div class="content">
+      <div class="subtitle">DEPOIMENTOS:</div>
+      <div class="description">
+        <em>“A Kairon transformou nossa gestão pública.”</em><br>
+        – Secretaria de Segurança Digital da Noruega<br><br>
+        <em>“Alta tecnologia, alta eficiência.”</em><br>
+        – CEO da NovaNet Corporation
+      </div>
+    </div>
+  </section>
+
+  <section id="page6">
+    <div class="description">
+      KAIRON 2025 | Privacidade | Termos<br>
+      LinkedIn | Instagram<br><br>
+      Endereço: KAIRON CORPORATION – Distrito Tecnológico,<br>
+      Dallas, Estados Unidos
+    </div>
+  </section>
+
+</body>
+</html>
